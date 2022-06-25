@@ -83,6 +83,7 @@ CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-jd-dailybonus=y
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
 CONFIG_PACKAGE_luci-app-nps=y
 CONFIG_PACKAGE_luci-app-passwall=y
@@ -114,6 +115,10 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-unblockmusic=y
+CONFIG_UnblockNeteaseMusic_Go=y
+CONFIG_UnblockNeteaseMusic_NodeJS=y
+CONFIG_PACKAGE_UnblockNeteaseMusic=y
+CONFIG_PACKAGE_UnblockNeteaseMusicGo=y
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
