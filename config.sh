@@ -7,6 +7,9 @@ CONFIG_TARGET_armvirt_64_Default=y
 CONFIG_BTRFS_PROGS_ZSTD=y
 CONFIG_LIBMBEDTLS_HAVE_ARMV8CE_AES=y
 CONFIG_PACKAGE_6in4=y
+CONFIG_PACKAGE_UnblockNeteaseMusic=y
+CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
+CONFIG_PACKAGE_adbyby=y
 CONFIG_PACKAGE_TAR_BZIP2=y
 CONFIG_PACKAGE_TAR_GZIP=y
 CONFIG_PACKAGE_TAR_XZ=y
@@ -79,6 +82,7 @@ CONFIG_PACKAGE_libzstd=y
 CONFIG_PACKAGE_losetup=y
 CONFIG_PACKAGE_lsattr=y
 CONFIG_PACKAGE_lsblk=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
@@ -100,6 +104,9 @@ CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+CONFIG_PACKAGE_luci-app-unblockmusic=y
+CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go=y
+CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
@@ -112,16 +119,12 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_Obfs=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_luci-app-unblockmusic=y
-CONFIG_UnblockNeteaseMusic_Go=y
-CONFIG_UnblockNeteaseMusic_NodeJS=y
-CONFIG_PACKAGE_UnblockNeteaseMusic=y
-CONFIG_PACKAGE_UnblockNeteaseMusicGo=y
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-nps-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
