@@ -16,5 +16,5 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/lean
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 #Add luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-#Add luci-app-bypass
-#git clone https://github.com/kiddin9/openwrt-bypass/luci-app-bypass.git package/lean/luci-app-bypass
+#Add luci-app-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-dailybonus
