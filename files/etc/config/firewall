@@ -42,14 +42,14 @@ config include 'mia'
         option path '/etc/mia.include'                                                                                                                                               
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
-config include 'passwall2'                                                                                                                                                           
+config include 'bypass'                                                                                                                                                           
         option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall2.include'                                                                                                                                     
+        option path '/var/etc/bypass.include'                                                                                                                                     
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
-config include 'passwall2_server'                                                                                                                                                    
+config include 'bypass_server'                                                                                                                                                    
         option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall2_server.include'                                                                                                                              
+        option path '/var/etc/bypass_server.include'                                                                                                                              
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
 config include 'shadowsocksr'                                                                                                                                                        
