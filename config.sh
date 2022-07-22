@@ -92,7 +92,7 @@ CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_IPv6_Nat=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
 CONFIG_PACKAGE_luci-app-ramfree=y
