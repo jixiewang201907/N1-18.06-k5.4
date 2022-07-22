@@ -82,6 +82,7 @@ CONFIG_PACKAGE_luci-app-amlogic=y
 CONFIG_PACKAGE_luci-app-bypass=y
 # CONFIG_PACKAGE_luci-app-ddns is not set
 CONFIG_PACKAGE_luci-app-jd-dailybonus=y
+CONFIG_PACKAGE_luci-app-nlbwmon=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
@@ -128,6 +129,7 @@ CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_nlbwmon=y
 CONFIG_PACKAGE_npc=y
 ONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_redsocks2=y
