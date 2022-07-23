@@ -196,6 +196,7 @@ CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_UnblockNeteaseMusic=y
 CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
 CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_uuidgen=y
 CONFIG_PACKAGE_v2ray-core=y
 CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
