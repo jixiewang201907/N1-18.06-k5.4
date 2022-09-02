@@ -26,6 +26,7 @@ CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio-rpi-zero-w=y
 CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio-rpi-3b-plus=y
 CONFIG_PACKAGE_brcmfmac-firmware-43455-sdio-rpi-4b=y
 CONFIG_PACKAGE_brcmfmac-firmware-usb=y
+CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_coreutils-sort=y
 CONFIG_PACKAGE_dosfstools=y
 CONFIG_PACKAGE_hostapd=y
@@ -131,6 +132,8 @@ CONFIG_PACKAGE_tc-tiny=y
 CONFIG_PACKAGE_terminfo=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
 CONFIG_PACKAGE_trojan=y
+CONFIG_PACKAGE_trojan-go=y
+CONFIG_PACKAGE_trojan-plus=y
 CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
@@ -149,3 +152,4 @@ CONFIG_PACKAGE_vsftpd-alt=y
 CONFIG_PACKAGE_wol=y
 CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
 EOF
+
