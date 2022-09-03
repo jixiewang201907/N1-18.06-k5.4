@@ -14,18 +14,9 @@ config zone
         option network 'lan lan6'                                                                                                                                                    
                                                                                                                                                                                      
 config include                                                                                                                                                                       
-        option path '/etc/firewall.user'                                                                                                                                             
-                                                                                                                                                                                     
-config include 'passwall'                                                                                                                                                            
-        option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall.include'                                                                                                                                      
-        option reload '1'                                                                                                                                                            
-                                                                                                                                                                                     
-config include 'passwall_server'                                                                                                                                                     
-        option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall_server.include'                                                                                                                               
-        option reload '1'                                                                                                                                                            
-                                                                                                                                                                                     
+        option path '/etc/firewall.user'                                               
+                                                                                                                                      
+                                                                                                             
 config include 'zerotier'                                                                                                                                                            
         option type 'script'                                                                                                                                                         
         option path '/etc/zerotier.start'                                                                                                                                            
@@ -42,14 +33,14 @@ config include 'mia'
         option path '/etc/mia.include'                                                                                                                                               
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
-config include 'passwall2'                                                                                                                                                           
+config include 'bypass'                                                                                                                                                           
         option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall2.include'                                                                                                                                     
+        option path '/var/etc/bypass.include'                                                                                                                                     
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
-config include 'passwall2_server'                                                                                                                                                    
+config include 'bypass_server'                                                                                                                                                    
         option type 'script'                                                                                                                                                         
-        option path '/var/etc/passwall2_server.include'                                                                                                                              
+        option path '/var/etc/bypass_server.include'                                                                                                                              
         option reload '1'                                                                                                                                                            
                                                                                                                                                                                      
 config include 'shadowsocksr'                                                                                                                                                        
