@@ -94,7 +94,7 @@ jobs:
 
     - name: Compile the firmware
       run: |
-        cd openwrt
+        cd openwrt 
         echo -e "$(nproc) thread compile"
         make -j$(nproc) || make -j1 V=s
         echo "======================="
