@@ -14,9 +14,8 @@ config zone
         option network 'lan lan6'                                                                                                                                                    
                                                                                                                                                                                      
 config include                                                                                                                                                                       
-        option path '/etc/firewall.user'                                               
-                                                                                                                                      
-                                                                                                             
+        option path '/etc/firewall.user'                                                                                                                                             
+
 config include 'zerotier'                                                                                                                                                            
         option type 'script'                                                                                                                                                         
         option path '/etc/zerotier.start'                                                                                                                                            
