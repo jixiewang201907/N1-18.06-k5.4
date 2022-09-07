@@ -34,7 +34,7 @@ jobs:
       contents: write
       pull-requests: write
 
-	steps:
+    steps:
     - name: Checkout
       uses: actions/checkout@v2
       with:
@@ -55,7 +55,7 @@ jobs:
         sudo timedatectl set-timezone "$TZ"
         df -h
 
-	- name: Clone source code
+    - name: Clone source code
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
@@ -64,13 +64,13 @@ jobs:
         echo "DATE=$(date "+%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
         echo "tag_name=$(date +%Y%m%d)" >> $GITHUB_ENV
 
-	- name: Load custom feeds
+    - name: Load custom feeds
       run: |
         [ -e files ] && mv files openwrt/files
         chmod +x $SCRIPT_SH
         ./$SCRIPT_SH
 
-	- name: Update feeds
+    - name: Update feeds
       run: |
         chmod +x $SRC_SH
         ./$SRC_SH
@@ -84,14 +84,14 @@ jobs:
         chmod +x $CONFIG_SH
         ./$CONFIG_SH
 
-	- name: Download package
+    - name: Download package
       run: |
         cd openwrt
         make defconfig
         make download -j8
         find dl -size -1024c -exec rm -f {} \;
 
-	- name: Compile the firmware
+    - name: Compile the firmware
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
@@ -106,7 +106,7 @@ jobs:
         du -h --max-depth=1 ./bin
         echo "::set-output name=status::success"
 
-	- name: Package Armvirt as OpenWrt
+    - name: Package Armvirt as OpenWrt
       uses: ophub/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
