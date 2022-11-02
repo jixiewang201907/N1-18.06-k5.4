@@ -4,7 +4,7 @@ cd openwrt
 #rm -rf files/etc/config/wireless
 #rm -rf files/etc/modules.d/wireless_enable
 # 设置密码为空
-sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' https://github.com/immortalwrt/immortalwrt/blob/openwrt-21.02/package/base-files/files/etc/shadow
+sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' https://github.com/immortalwrt/immortalwrt/package/base-files/files/etc/shadow
 # Add luci-theme-opentomcat
 svn co https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 # Add luci-theme-argon
