@@ -129,7 +129,7 @@ jobs:
                       
             * 默认IP：192.168.2.200
             默认用户名：root
-            默认密码：password
+            默认密码：空
             安装到EMMC及在线更新：系统-->晶晨宝盒
 
     - name: Remove old Releases
