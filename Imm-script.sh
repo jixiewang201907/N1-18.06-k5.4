@@ -4,14 +4,14 @@ cd openwrt
 #rm -rf files/etc/config/wireless
 #rm -rf files/etc/modules.d/wireless_enable
 # Add luci-theme-opentomcat
-svn co https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
+svn co https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/emortal/luci-theme-opentomcat
 # Add luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/emortal/luci-theme-argon
 # Add amlogic
-svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/emortal/luci-app-amlogic
 # Add luci-app-passwall
-#git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+#git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/emortal/luci-app-passwall
 # Add luci-app-smartdns
-#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/emortal/luci-app-smartdns
 # Add luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/emortal/luci-app-adguardhome
