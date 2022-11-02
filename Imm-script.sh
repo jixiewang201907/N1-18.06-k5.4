@@ -7,7 +7,7 @@ cd openwrt
 svn co https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 # Add luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-# Add amlogic绠＄悊
+# Add amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # Add luci-app-passwall
 #git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
