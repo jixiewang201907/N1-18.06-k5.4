@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   SCRIPT_SH: Imm-script.sh
@@ -123,7 +123,7 @@ jobs:
                       
             * 默认IP：192.168.2.200
             默认用户名：root
-            默认密码：空
+            默认密码：password
             安装到EMMC及在线更新：系统-->晶晨宝盒
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
