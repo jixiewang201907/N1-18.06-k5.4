@@ -102,7 +102,7 @@ jobs:
         du -h --max-depth=1 ./bin
         echo "::set-output name=status::success"
     - name: Package Armvirt as OpenWrt
-      uses: jixiewang201907/flippy-openwrt-actions/blob/main/openwrt_flippy.sh@main
+      uses: jixiewang201907/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d
