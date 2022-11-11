@@ -102,11 +102,11 @@ jobs:
         du -h --max-depth=1 ./bin
         echo "::set-output name=status::success"
     - name: Package Armvirt as OpenWrt
-      uses: jixiewang201907/flippy-openwrt-actions@main
+      uses: ophub/flippy-openwrt-actions@main
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d
-        KERNEL_VERSION_NAME: 5.15.50_6.0.1
+        KERNEL_VERSION_NAME: 5.15.48_6.0.2
         KERNEL_AUTO_LATEST: true
         WHOAMI: CHH
 
