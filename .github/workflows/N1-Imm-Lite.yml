@@ -125,7 +125,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         token: ${{ secrets.GH_TOKEN }}
         body: |
-          N1 OpenWrt 精简版本
+          N1 Imm 精简版本
                       
             * 默认IP：192.168.2.200
             默认用户名：root
