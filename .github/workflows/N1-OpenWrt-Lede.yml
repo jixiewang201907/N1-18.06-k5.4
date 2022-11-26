@@ -112,7 +112,7 @@ jobs:
       env:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
         PACKAGE_SOC: s905d
-        KERNEL_VERSION_NAME: 5.15.50_6.0.1
+        KERNEL_VERSION_NAME: 5.4.200_5.15.50_6.0.1
         KERNEL_AUTO_LATEST: true
         WHOAMI: CHH
 
@@ -125,7 +125,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         token: ${{ secrets.GH_TOKEN }}
         body: |
-          N1 OpenWrt 精简版本
+          N1 Lede 精简版本
                       
             * 默认IP：192.168.2.200
             默认用户名：root
