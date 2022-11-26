@@ -122,13 +122,13 @@ CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-unblockmusic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
-CONFIG_PACKAGE_luci-theme-argon=y
+# CONFIG_PACKAGE_luci-theme-argon is not set
 # CONFIG_PACKAGE_luci-theme-opentomcat is not set
 # CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_nano=y
 CONFIG_PACKAGE_nlbwmon=y
-CONFIG_PACKAGE_npc=y
+# CONFIG_PACKAGE_npc is not set
 CONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_redsocks2=y
 CONFIG_PACKAGE_resolveip=y
