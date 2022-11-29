@@ -16,8 +16,8 @@ on:
     # - cron: 0 0 * * 5
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/jixiewang201907/immortalwrt
+  REPO_BRANCH: 21.02-20221031
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   SCRIPT_SH: Imm-script.sh
