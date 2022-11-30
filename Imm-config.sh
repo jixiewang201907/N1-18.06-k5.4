@@ -105,6 +105,12 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_Obfs=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ttyd=y
+CONFIG_PACKAGE_luci-app-turboacc=y
+CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA=y
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSFORWARDER is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSPROXY is not set
+CONFIG_PACKAGE_TURBOACC_INCLUDE_OFFLOADING=y
+CONFIG_PACKAGE_TURBOACC_INCLUDE_SHORTCUT_FE=y
 CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go=y
 CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=y
@@ -119,6 +125,7 @@ CONFIG_PACKAGE_luci-i18n-bypass-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-unblockmusic-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
