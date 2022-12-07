@@ -82,7 +82,7 @@ CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-bypass=y
 # CONFIG_PACKAGE_luci-app-cpufreq is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
-CONFIG_PACKAGE_luci-app-nlbwmon=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
@@ -134,11 +134,11 @@ CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn is not set
 CONFIG_PACKAGE_luci-proto-ipv6=y
 # CONFIG_PACKAGE_luci-theme-argon is not set
-# CONFIG_PACKAGE_luci-theme-opentomcat is not set
+CONFIG_PACKAGE_luci-theme-opentomcat=y
 # CONFIG_PACKAGE_miniupnpd is not set
 CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_nano=y
-CONFIG_PACKAGE_nlbwmon=y
+# CONFIG_PACKAGE_nlbwmon is not set
 # CONFIG_PACKAGE_npc is not set
 CONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_redsocks2=y
@@ -220,7 +220,7 @@ CONFIG_PACKAGE_xfs-fsck=y
 CONFIG_PACKAGE_xfs-mkfs=y
 CONFIG_PACKAGE_xz=y
 CONFIG_PACKAGE_xz-utils=y
-CONFIG_PACKAGE_zerotier=y
+# CONFIG_PACKAGE_zerotier is not set
 CONFIG_PERL_NOCOMMENT=y
 # CONFIG_TARGET_ROOTFS_CPIOGZ is not set
 # CONFIG_TARGET_ROOTFS_EXT4FS is not set
