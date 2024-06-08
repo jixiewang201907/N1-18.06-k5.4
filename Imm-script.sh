@@ -4,7 +4,7 @@ cd openwrt
 #rm -rf files/etc/config/wireless
 #rm -rf files/etc/modules.d/wireless_enable
 # Add luci-theme-kucat
-svn co https://github.com/kiddin9/openwrt-packages/truck/luci-theme-kucat package/luci-theme-kucat
+svn co https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
 # Add luci-theme-argon
 #rm -rf package/lean/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
