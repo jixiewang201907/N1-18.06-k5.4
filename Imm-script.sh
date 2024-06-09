@@ -12,7 +12,7 @@ git clone https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-ku
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # Add luci-app-passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-svn checkout https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-bypass package/luci-app-bypass
+svn co https://github.com/jixiewang201907/openwrt-packages/trunk/luci-app-bypasss package/luci-app-bypass
 # Add luci-app-smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # Add luci-app-adguardhome
