@@ -11,7 +11,7 @@ git clone https://github.com/jixiewang201907/luci-theme-opentomcat.git package/l
 # Add amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # Add luci-app-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+#git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 # Add luci-app-bypass
 git clone https://github.com/jixiewang201907/luci-app-bypass.git package/luci-app-bypass
 # Add luci-app-smartdns
