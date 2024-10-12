@@ -122,7 +122,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         token: ${{ secrets.GH_TOKEN }}
         body: |
-          N1 Imm 23.05 精简版本
+          N1 Imm 18.06-k5.4 精简版本
                       
             * 默认IP：192.168.2.200
             默认用户名：root
