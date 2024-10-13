@@ -198,7 +198,7 @@ CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
 CONFIG_PACKAGE_simple-obfs=y
 CONFIG_PACKAGE_simple-obfs-client=y
-CONFIG_PACKAGE_sing-box=y
+# CONFIG_PACKAGE_sing-box is not set
 CONFIG_PACKAGE_ssocks=y
 CONFIG_PACKAGE_tcping=y
 CONFIG_PACKAGE_trojan=y
