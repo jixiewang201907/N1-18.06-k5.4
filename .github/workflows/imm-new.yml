@@ -1,4 +1,4 @@
-name: N1-Imm18.06-k5.4-Lite
+name: N1-Imm-new
 
 on:
   repository_dispatch:
