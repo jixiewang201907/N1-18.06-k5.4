@@ -33,6 +33,7 @@ CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_ip6tables=y
 CONFIG_PACKAGE_ip6tables-mod-nat=y
+CONFIG_PACKAGE_ip6tables-mod-socket=y
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_kcptun-client=y
 CONFIG_PACKAGE_kcptun-config=y
