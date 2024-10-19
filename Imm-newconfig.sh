@@ -39,7 +39,6 @@ CONFIG_PACKAGE_luci-app-adguardhome=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
