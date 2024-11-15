@@ -22,12 +22,6 @@ git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # Add luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-# Add luci-app-mosdns
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
-rm -rf feeds/packages/net/v2ray-geodata
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
