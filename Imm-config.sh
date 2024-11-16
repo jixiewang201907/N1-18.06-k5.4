@@ -127,11 +127,6 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-turboacc=y
-CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA=y
-# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSFORWARDER is not set
-# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSPROXY is not set
-CONFIG_PACKAGE_TURBOACC_INCLUDE_OFFLOADING=y
-CONFIG_PACKAGE_TURBOACC_INCLUDE_SHORTCUT_FE=y
 # CONFIG_PACKAGE_luci-app-unblockmusic is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS is not sey
@@ -161,23 +156,6 @@ CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_nano=y
 # CONFIG_PACKAGE_nlbwmon is not set
 # CONFIG_PACKAGE_npc is not set
-CONFIG_PACKAGE_pdnsd-alt=y
-CONFIG_PACKAGE_redsocks2=y
-CONFIG_PACKAGE_resolveip=y
-CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
-CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
-CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
-CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
-CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-check=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
-CONFIG_PACKAGE_simple-obfs-client=y
-CONFIG_PACKAGE_tcping=y
-CONFIG_PACKAGE_trojan=y
-CONFIG_PACKAGE_trojan-go=y
-CONFIG_PACKAGE_trojan-plus=y
 CONFIG_PACKAGE_odhcp6c=y
 CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
 CONFIG_PACKAGE_odhcpd-ipv6only=y
@@ -217,17 +195,39 @@ CONFIG_PACKAGE_perlbase-unicode=y
 CONFIG_PACKAGE_perlbase-unicore=y
 CONFIG_PACKAGE_perlbase-utf8=y
 CONFIG_PACKAGE_perlbase-xsloader=y
+CONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_pv=y
+CONFIG_PACKAGE_redsocks2=y
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
+CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-check=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-server=y
+CONFIG_PACKAGE_simple-obfs-client=y
 CONFIG_PACKAGE_smartdns=y
 CONFIG_PACKAGE_tar=y
 CONFIG_PACKAGE_TAR_BZIP2=y
 CONFIG_PACKAGE_TAR_GZIP=y
 CONFIG_PACKAGE_TAR_XZ=y
 CONFIG_PACKAGE_TAR_ZSTD=y
+CONFIG_PACKAGE_tcping=y
 CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_trojan=y
+CONFIG_PACKAGE_trojan-go=y
+CONFIG_PACKAGE_trojan-plus=y
 CONFIG_PACKAGE_ttyd=y
-CONFIG_PACKAGE_UnblockNeteaseMusic=y
-CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
+CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA=y
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSFORWARDER is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_DNSPROXY is not set
+CONFIG_PACKAGE_TURBOACC_INCLUDE_OFFLOADING=y
+CONFIG_PACKAGE_TURBOACC_INCLUDE_SHORTCUT_FE=y
+# CONFIG_PACKAGE_UnblockNeteaseMusic is not set
+# CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_uuidgen=y
 CONFIG_PACKAGE_v2ray-core=y
