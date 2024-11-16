@@ -83,7 +83,6 @@ CONFIG_PACKAGE_luci-app-amlogic=y
 CONFIG_PACKAGE_luci-app-bypass=y
 # CONFIG_PACKAGE_luci-app-cpufreq is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
-CONFIG_PACKAGE_luci-app-mosdns=y
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
 # CONFIG_PACKAGE_luci-app-passwall is not set
 CONFIG_PACKAGE_luci-app-passwall2=y
@@ -108,6 +107,7 @@ CONFIG_PACKAGE_luci-app-passwall_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-ramfree=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+CONFIG_PACKAGE_luci-app-smartdns=y
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria=y
