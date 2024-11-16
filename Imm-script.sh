@@ -19,6 +19,7 @@ git clone -b main https://github.com/xiaorouji/openwrt-passwall2.git package/luc
 # Add luci-app-bypass
 git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
 # Add luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # Add luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
