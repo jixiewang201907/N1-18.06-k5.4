@@ -106,7 +106,7 @@ jobs:
         du -h --max-depth=1 ./build_dir
         du -h --max-depth=1 ./bin
         # echo "::set-output name=status::success"
-        echo "name=status::success" >> $GITHUB_OUTPUT
+        echo "name=success" >> $GITHUB_OUTPUT
 
     - name: Package Armvirt as OpenWrt
       uses: ophub/flippy-openwrt-actions@main
