@@ -13,8 +13,8 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
-  SCRIPT_SH: Imm-script.sh
   CONFIG_SH: imm-23.05-config.sh
+  SCRIPT_SH: Imm-script.sh
   SRC_SH: Imm-src.sh
   TZ: Asia/Shanghai
 
