@@ -1,3 +1,6 @@
+#!/bin/bash
+cd openwrt
+cat >> .config <<EOF
 CONFIG_TARGET_armsr=y
 CONFIG_TARGET_armsr_armv8=y
 CONFIG_TARGET_armsr_armv8_DEVICE_generic=y
@@ -88,3 +91,4 @@ CONFIG_PACKAGE_kmod-cfg80211=n
 CONFIG_PACKAGE_kmod-mac80211=n
 CONFIG_PACKAGE_wpa-cli=n
 CONFIG_PACKAGE_wpad-basic=n
+EOF
