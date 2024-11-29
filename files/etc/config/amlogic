@@ -6,7 +6,7 @@ config amlogic 'config'
 	option amlogic_firmware_config '1'
 	option amlogic_write_bootloader '1'
 	option amlogic_shared_fstype 'ext4'
-	option amlogic_kernel_branch '5.4'
+	option amlogic_kernel_branch '6.1'
 
 config settings 'armcpu'
 	option governor0 'schedutil'
