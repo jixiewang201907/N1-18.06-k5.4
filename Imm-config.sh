@@ -253,13 +253,4 @@ CONFIG_boost-compile-visibility-hidden=y
 CONFIG_boost-runtime-shared=y
 CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
-# remove wifi
-CONFIG_PACKAGE_hostapd-common=n
-CONFIG_PACKAGE_iw=n
-CONFIG_PACKAGE_kmod-brcmfmac=n
-CONFIG_PACKAGE_kmod-brcmutil=n
-CONFIG_PACKAGE_kmod-cfg80211=n
-CONFIG_PACKAGE_kmod-mac80211=n
-CONFIG_PACKAGE_wpa-cli=n
-CONFIG_PACKAGE_wpad-basic=n
 EOF
