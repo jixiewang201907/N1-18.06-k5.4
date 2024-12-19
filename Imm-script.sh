@@ -4,8 +4,8 @@ cd openwrt
 rm -rf files/etc/config/wireless
 rm -rf files/etc/modules.d/wireless_enable
 # geodata
-wget -q -cp files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
-wget -q -cp files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
+wget -q -cP files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
+wget -q -cP files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
 # Add luci-theme-opentomcat
 git clone https://github.com/jixiewang201907/luci-theme-opentomcat.git package/luci-theme-opentomcat
 # Add luci-theme-argon
@@ -14,7 +14,6 @@ git clone https://github.com/jixiewang201907/luci-theme-opentomcat.git package/l
 # Add amlogic
 #git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # Add luci-app-passwall
-#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/feeds/passwall2
 #git clone -b main https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 #git clone -b main https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
 # Add luci-app-bypass
